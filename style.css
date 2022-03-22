@@ -1,0 +1,176 @@
+body {
+	font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+	background: #363636;
+	padding: 20px 0;
+	display: flex;
+}
+
+.topo {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 160px;
+	float: left;
+	margin: 0 20px 20px 0;
+	border: solid;
+	border-radius: 10px;
+	border-color: #00FF00;
+}
+
+.fotos_posts {
+	text-align: left;
+	width: 200px;
+	margin: 20px 20px 20px 20px;
+	border: solid;
+	border-radius: 10px;
+	border-color: #00FF00;
+	opacity: 0.8;
+}
+
+.instagram{
+	align-items: center;
+	flex-direction: column;
+}
+
+.insta_texto{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 26px;
+	margin: 0 0 0;
+	display: inline;
+}
+
+.insta{
+	width: 120px;
+	margin: 10px 10px 10px 10px;
+}
+
+.fotos_posts:hover{
+	border-color: #FF8C00;
+	width: 220px;
+	opacity: 1;
+}
+
+nav {
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #00FF00;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: 	#FF8C00;
+}
+
+.introducao{
+	text-align: center;
+	background: linear-gradient(#363636,#494949);
+	padding: 30px;
+}
+
+.titulo_intro{
+	text-align: center;
+	font-size: 3em;
+	margin: 1 em 1em 1em 1em;
+	clear: left;
+	color: #00FF00;
+	font-weight: bold;
+	font-weight: bold;
+}
+
+.texto_intro{
+	text-align: center;
+	color: 	#FFFFFF;
+	font-size: 30px;
+	margin: 1em 1em 1em 1em;
+}
+
+.posts{
+	text-align: center;
+	background: linear-gradient(#494949,#696969);
+	padding: 30px;
+}
+
+.titulo_posts{
+	text-align: center;
+	font-size: 3em;
+	margin: 1 em 1em 1em 1em;
+	clear: left;
+	color: #00FF00;
+	font-weight: bold;
+}
+
+p {
+	text-align: justify;
+}
+
+/*css da página sobre*/
+.codinome_sobre {
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+	font-size: 3em;
+	color: #00FF00;
+}
+
+.sobre{
+	text-align: center;
+	background: linear-gradient(#363636,#696969);
+	padding: 30px;
+}
+
+.texto_sobre {
+	text-align: center;
+	color: 	#F8F8FF;
+	font-size: 25px;
+}
+
+.colecao_pb {
+	text-align: center;
+	width: 400px;
+	margin: 20px 20px 20px 20px;
+	border: solid;
+	border-radius: 10px;
+	border-color: #00FF00;
+}
+
+footer{
+	padding: 40px 0;
+	background: url("bg.jpg");
+	text-align: center;
+}
+
+.logo_CG{
+	width: 120px;
+	margin: 40px 40px 40px 40px;
+	border: solid;
+	border-radius: 20px;
+	border-color: #00FF00;
+	padding: 0 0 0 5px;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-bottom: 0;
+	text-align: center;
+}
